@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI';
+}
+
+body {
+    background-image: url('../img/fundo_menor.png');
+    background-size: 100vw 100vh;
+}
+
+section {
+    margin: 100px auto;
+    width: 550px;
+}
+
+h1 {
+    font-size: 25px;
+    color:#1F2831;
+    margin-bottom: 50px;
+}
+
+label{
+    font-size: 15px;
+    color:#1F2831;
+}
+
+input, .add, .buy{
+    border:0;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+input{
+    width: calc(100% - 40px);
+    padding: 10px 20px;
+    opacity: .65;
+    margin-top: 5px;
+}
+
+.add, .buy{
+    background: #1F2831;
+    color:#FBFBFB;
+    transition: .2s all;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    margin-right: 7px;
+}
+
+.add{
+    width: 100%;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.buy{
+    width: 220px;
+    height: 90px;
+}
+
+.add:hover, .buy:hover {
+    opacity: .8;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px #444;
+}
